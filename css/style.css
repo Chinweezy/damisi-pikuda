@@ -5,6 +5,10 @@ body {
     line-height: 2;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #fName {
     font-size: 4rem;
 }
@@ -119,7 +123,7 @@ a {
     }
 
     .box {
-        height: 5rem;
+        height: 8rem;
         width: 25rem;
     }
     
@@ -132,11 +136,12 @@ a {
         -moz-box-shadow: 9px 9px 20px 0px #00000066;
         box-shadow: 9px 9px 20px 0px #00000066;
         background-color: #DF9FA9;
+        width: 25rem;
     }
     
-    /* .blog__topImg{
-        max-width: 100%;
-    } */
+    .blog__topImg{
+        display: none;
+    }
     
     .blog__content {
         padding: 0.5rem;
@@ -212,6 +217,7 @@ a {
     }
     .blog__topImg{
         max-width: 100%;
+        display: block;
     }
     
  }
